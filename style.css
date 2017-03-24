@@ -1,0 +1,63 @@
+
+.parallax { 
+  background-image: url("images/background.png");
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+<!doctype html>
+	 <html lang="en">
+	  <head>
+	    <meta charset="utf-8">
+	    <title>Portfolio</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  </head>
+	  <body>
+	      <div class="parallax"></div>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about me.html">About Me</a>
+        <h1>This is my Portfolio Page!</h1>
+        <img src="images/portfolio.jpg" height="250">
+        <br>
+        <tr class="row">
+        <table>
+            <tr>
+            <td class="col-sm-4" style="background-color:lavender;"><a target="_blank" href="https://scratch.mit.edu">
+              <img src="images/scratchlogo.png" height="250"> 
+            </a>
+            </td>
+            </tr>
+            <tr>
+            <td class="col-sm-4" style="background-color:lavenderblush;"><a target="_blank" href="https://scratch.mit.edu/projects/122193285/#fullscreen">
+                <img src="images/scratch 1.PNG" height="250">
+             </a>
+             </td>
+             </tr>
+            <tr>
+            <td class="col-sm-4" style="background-color:lavender;"><a target="_blank" href="https://scratch.mit.edu/projects/123039659/#editor">
+            <img src="images/harambe story.PNG" height="250">
+            </a>
+            </td>
+            </tr>
+          <tr>
+          <td class="row">
+          <td class="col-sm-4"><a target="_blank" href="https://repl.it/EEwR/93">
+            <img src="images/text based adventure.PNG" height="250" width="450">
+            </a>
+            </td>
+            </tr>
+            <tr>
+          <td class="col-sm-4"><a target="_blank" href="Files/Quiz.aia">aia files</a></tr>
+          <td class="col-sm-4"><a target="_blank" href="Files/Quiz.apk">apk files</a></tr>
+        </td>
+        </tr>
+        </table>
+    </body>
+</html>
